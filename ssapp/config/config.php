@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://localhost:8888/ci_boilerplate/";
+$config['base_url']	= "http://localhost:8888/ci_boilerplate_git/";
 
 /*
 |--------------------------------------------------------------------------
