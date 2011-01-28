@@ -40,7 +40,7 @@
 |
 */
 
-$route['default_controller'] = "main";
+$route['default_controller'] = "home";
 $route['scaffolding_trigger'] = "";
 
 // URI like '/en/about' -> use controller 'about'
