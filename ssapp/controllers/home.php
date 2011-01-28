@@ -9,7 +9,9 @@ class Home extends Controller {
 	
 	function index()
 	{
-		$this->load->view('home_v');
+		$data['title'] = 'Codeigniter HTML5Boilerplate Template';
+		
+		$this->load->view('home_v', $data);
 	}
 }
 
