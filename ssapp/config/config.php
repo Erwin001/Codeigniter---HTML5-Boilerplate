@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://localhost:8888/ci_boilerplate_git/';
 
 /*
 |--------------------------------------------------------------------------
@@ -69,7 +69,13 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= "english";
+//default language abbreviation
+$config['language_abbr'] = "en";
+//set available language abbreviations
+$config['lang_uri_abbr'] = array("en" => "english", "tr" => "turkish");
+//ignore this language abbreviation
+$config['lang_ignore'] = "xx";
 
 /*
 |--------------------------------------------------------------------------

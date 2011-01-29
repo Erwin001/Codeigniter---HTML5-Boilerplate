@@ -38,8 +38,16 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "home";
 $route['404_override'] = '';
+
+// URI like '/en/about' -> use controller 'about'
+$route['^en/(.+)$'] = "$1";
+$route['^tr/(.+)$'] = "$1";
+ 
+// '/en' and '/fr' URIs -> use default controller
+$route['^en$'] = $route['default_controller'];
+$route['^tr$'] = $route['default_controller'];
 
 
 /* End of file routes.php */
