@@ -1,19 +1,14 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends Controller {
+class Home extends CI_Controller {
 
-	function Home()
+	function __construct()
 	{
-		parent::Controller();	
+		parent::__construct();
 	}
-	
+
 	function index()
 	{
-		$data['title'] = 'Codeigniter HTML5Boilerplate Template';
-		
-		$this->load->view('home_v', $data);
+		$this->load->view('welcome_message');
 	}
 }
-
-/* End of file main.php */
-/* Location: ./ssapp/controllers/home.php */
