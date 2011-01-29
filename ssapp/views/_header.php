@@ -5,7 +5,7 @@
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	
@@ -21,25 +21,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	
 	<!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-	<link rel="shortcut icon" href="<?php echo base_url(); ?>favicon.ico">
-	<link rel="apple-touch-icon" href="<?php echo base_url(); ?>apple-touch-icon.png">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
   	
 	<!-- CSS : implied media="all" -->
-	<link rel="stylesheet" href="<?php echo base_url().CSS_FOLDER; ?>style.css?v=2">
+	<link rel="stylesheet" href="<?php echo CSS_FOLDER; ?>/style.css?v=2">
 	<!-- CSS : implied media="all" -->
-	<link rel="stylesheet" href="<?php echo base_url().CSS_FOLDER; ?>site.css?v=2">
+	<link rel="stylesheet" href="<?php echo CSS_FOLDER; ?>/site.css?v=2">
 	
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-	<script src="<?php echo base_url().JAVASCRIPT_FOLDER; ?>libs/modernizr-1.6.min.js"></script>
+	<script src="<?php echo JS_FOLDER; ?>/libs/modernizr-1.6.min.js"></script>
 	
 </head>
 
 <body>
 	<div id="wrapper">
 		<?php if (strlen($this->config->item('index_page')) > 0): ?>
-		<a href="<?php echo base_url().$this->config->item('index_page').'/home'; ?>">
+		<a href="<?php echo $this->config->item('index_page').'/home'; ?>">
 		<?php else: ?>
-		<a href="<?php echo base_url().'/home'; ?>">
+		<a href="<?php echo '/home'; ?>">
 		<?php endif ?>
     		<header></header>
     	</a>

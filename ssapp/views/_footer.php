@@ -3,15 +3,15 @@
 	</div> <!--! end of #content -->
 	
 	<!-- jQuery -->
-	<script src="<?php echo base_url().JAVASCRIPT_FOLDER; ?>libs/jquery-1.4.4.min.js"></script>
+	<script src="<?php echo JS_FOLDER; ?>/libs/jquery-1.4.4.min.js"></script>
 	
 	<!-- scripts concatenated and minified via ant build script-->
-	<script src="<?php echo base_url().JAVASCRIPT_FOLDER; ?>plugins.js"></script>
-	<script src="<?php echo base_url().JAVASCRIPT_FOLDER; ?>script.js"></script>
+	<script src="<?php echo JS_FOLDER; ?>/plugins.js"></script>
+	<script src="<?php echo JS_FOLDER; ?>/script.js"></script>
 	<!-- end concatenated and minified scripts-->
 	
 	<!--[if lt IE 7 ]>
-	<script src="<?php echo base_url(); ?>js/libs/dd_belatedpng.js"></script>
+	<script src="<?php echo JS_FOLDER; ?>/js/libs/dd_belatedpng.js"></script>
 	<script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
 	<![endif]-->
 	

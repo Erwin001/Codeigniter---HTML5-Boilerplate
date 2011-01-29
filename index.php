@@ -98,7 +98,7 @@ else
 {
 	if ($application_folder == '')
 	{
-		$application_folder = 'application';
+		$application_folder = 'ssapp';
 	}
 
 	define('APPPATH', BASEPATH.$application_folder.'/');
