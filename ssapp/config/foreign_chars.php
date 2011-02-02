@@ -61,4 +61,4 @@ $foreign_characters = array(
 );
 
 /* End of file foreign_chars.php */
-/* Location: ./application/config/foreign_chars.php */
+/* Location: ./ssapp/config/foreign_chars.php */

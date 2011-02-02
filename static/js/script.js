@@ -2,7 +2,10 @@
 
 */
 
-
+$(function()
+{
+	console.log('ready');
+});
 
 
 

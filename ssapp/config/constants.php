@@ -41,4 +41,4 @@ define('JS_FOLDER',		'static/js');
 
 
 /* End of file constants.php */
-/* Location: ./application/config/constants.php */
+/* Location: ./ssapp/config/constants.php */

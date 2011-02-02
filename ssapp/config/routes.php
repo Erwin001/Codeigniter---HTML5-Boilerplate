@@ -51,4 +51,4 @@ $route['^tr$'] = $route['default_controller'];
 
 
 /* End of file routes.php */
-/* Location: ./application/config/routes.php */
+/* Location: ./ssapp/config/routes.php */

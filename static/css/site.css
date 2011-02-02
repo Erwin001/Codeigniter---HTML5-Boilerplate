@@ -10,8 +10,6 @@ a:hover,a:focus, 	{color: #000; text-decoration: underline;}
 a:active 			{}
 
 #wrapper {
-	width: 1024px;
-	height: 768px;
 	margin: 20px auto;
 }
 
@@ -27,8 +25,8 @@ a:active 			{}
 }
 
 ::selection {
-	background: #97c942; /* Safari */
+	background: #FF5E99; /* Safari */
 }
 ::-moz-selection {
-	background: #97c942; /* Firefox */
+	background: #FF5E99; /* Firefox */
 }

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8888/ci_boilerplate_git/';
+$config['base_url']	= 'http://localhost:8888/Codeigniter---HTML5-Boilerplate/';
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ $config['base_url']	= 'http://localhost:8888/ci_boilerplate_git/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -363,4 +363,4 @@ $config['proxy_ips'] = '';
 
 
 /* End of file config.php */
-/* Location: ./application/config/config.php */
+/* Location: ./ssapp/config/config.php */
