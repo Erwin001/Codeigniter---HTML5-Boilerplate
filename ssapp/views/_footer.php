@@ -3,7 +3,7 @@
 	</div> <!--! end of #content -->
 	
 	<!-- jQuery -->
-	<script src="<?php echo JS_FOLDER; ?>/libs/jquery-1.4.4.min.js"></script>
+	<script src="<?php echo JS_FOLDER; ?>/libs/jquery-1.5.min.js"></script>
 	
 	<!-- scripts concatenated and minified via ant build script-->
 	<script src="<?php echo JS_FOLDER; ?>/plugins.js"></script>
