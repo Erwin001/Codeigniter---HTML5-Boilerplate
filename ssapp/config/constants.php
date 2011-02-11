@@ -36,8 +36,9 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-define('CSS_FOLDER',	'static/css');
-define('JS_FOLDER',		'static/js');
+define('CSS_FOLDER',		'static/css/');
+define('JS_FOLDER',			'static/js/');
+define('JSLIB_FOLDER',		'static/js/libs/');
 
 
 /* End of file constants.php */

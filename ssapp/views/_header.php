@@ -15,22 +15,22 @@
   	
 	<title><?=$title?></title>
 	<meta name="description" 	content="">
-	<meta name="author" 		content="Serkan Sškmen">
+	<meta name="author" 		content="Serkan Sökmen">
   	
 	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	
 	<!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="shortcut icon" 		href="favicon.ico">
+	<link rel="apple-touch-icon" 	href="apple-touch-icon.png">
   	
 	<!-- CSS : implied media="all" -->
-	<link rel="stylesheet" href="<?php echo CSS_FOLDER; ?>/style.css?v=2">
+	<link rel="stylesheet" href="<?php echo base_url().CSS_FOLDER; ?>style.css?v=2">
 	<!-- CSS : implied media="all" -->
-	<link rel="stylesheet" href="<?php echo CSS_FOLDER; ?>/site.css?v=2">
+	<link rel="stylesheet" href="<?php echo base_url().CSS_FOLDER; ?>site.css?v=2">
 	
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-	<script src="<?php echo JS_FOLDER; ?>/libs/modernizr-1.6.min.js"></script>
+	<script src="<?php echo base_url().JSLIB_FOLDER; ?>modernizr-1.6.min.js"></script>
 	
 </head>
 
