@@ -23,7 +23,7 @@
 | NO TRAILING SLASH!
 |
 */
-	$system_folder = "sssys";
+	$system_folder = "ba_sys";
 
 /*
 |---------------------------------------------------------------
@@ -40,7 +40,7 @@
 | NO TRAILING SLASH!
 |
 */
-	$application_folder = "ssapp";
+	$application_folder = "ba_app";
 
 /*
 |===============================================================
