@@ -2,10 +2,7 @@
 
 */
 
-$(function()
-{
-	console.log('ready');
-});
+
 
 
 
