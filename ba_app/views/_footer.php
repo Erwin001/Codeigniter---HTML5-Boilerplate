@@ -8,11 +8,11 @@
 
 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-	<script>window.jQuery || document.write("<script src='<?php echo base_url(); ?>static/js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+	<script>window.jQuery || document.write("<script src='/static/js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
 	
 	<!-- scripts concatenated and minified via ant build script-->
-	<script src="<?php echo base_url(); ?>static/js/plugins.js"></script>
-	<script src="<?php echo base_url(); ?>static/js/script.js"></script>
+	<script src="/static/js/plugins.js"></script>
+	<script src="/static/js/script.js"></script>
 	<!-- end scripts-->
 	
 	<!--[if lt IE 7 ]>

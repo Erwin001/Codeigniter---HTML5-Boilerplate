@@ -24,13 +24,13 @@
 
 
 	  <!-- CSS: implied media="all" -->
-	  <link rel="stylesheet" href="<?php echo base_url(); ?>static/css/style.css?v=2">
+	  <link rel="stylesheet" href="/static/css/style.css?v=2">
 
 	  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
 	  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
 
 	  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-	<script src="<?php echo base_url(); ?>static/js/libs/modernizr-1.7.min.js"></script>
+	<script src="/static/js/libs/modernizr-1.7.min.js"></script>
 	
 </head>
 
