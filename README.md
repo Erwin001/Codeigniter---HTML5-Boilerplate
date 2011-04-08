@@ -2,7 +2,7 @@ Codeigniter + HTML5 Boilerplate v1.1
 
 initial folder structure to start creating web applications using Codeigniter and HTML5 Boilerplate.
 
- - Codeigniter version included: 2.0.1
+ - Codeigniter version included: 2.0.2
  - HTML5 Boilerplate version included: 1.0
 
 Codeigniter Wiki:  http://codeigniter.com/wiki/
