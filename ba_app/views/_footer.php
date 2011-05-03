@@ -6,7 +6,7 @@
 	
 	<!-- JavaScript at the bottom for fast page loading -->
   <!-- jQuery -->
-	<script src="<?php echo base_url().JSLIB_FOLDER; ?>jquery-1.5.2.min.js"></script>
+	<script src="<?php echo base_url().JSLIB_FOLDER; ?>jquery-1.6.min.js"></script>
 	
 	<!-- scripts concatenated and minified via ant build script-->
 	<script src="<?php echo base_url().JS_FOLDER; ?>plugins.js"></script>
