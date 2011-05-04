@@ -12,5 +12,8 @@ class Home extends CI_Controller {
 		$data['title'] = 'Codeigniter HTML5 Boilerplate';
 		
 		$this->load->view('home_v', $data);
+		
+		// Language
+		$this->lang->load($this->config->item('language'));
 	}
 }
