@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8888/cihtml5/';
+$config['base_url']	= '/cihtml5/';
 
 /*
 |--------------------------------------------------------------------------
@@ -69,9 +69,9 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= "english";
+$config['language']	= "turkish";
 //default language abbreviation
-$config['language_abbr'] = "en";
+$config['language_abbr'] = "tr";
 //set available language abbreviations
 $config['lang_uri_abbr'] = array("en" => "english", "tr" => "turkish");
 //ignore this language abbreviation
