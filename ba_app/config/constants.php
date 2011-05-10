@@ -39,6 +39,8 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',			'x+b');
 define('CSS_FOLDER',			'static/css/');
 define('JS_FOLDER',				'static/js/');
 define('JSLIB_FOLDER',		'static/js/libs/');
+define('IMG_FOLDER',			'static/img/');
+define('USR_FOLDER',			'usr_files/');
 
 
 /* End of file constants.php */
