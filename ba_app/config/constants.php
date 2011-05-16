@@ -36,11 +36,13 @@ define('FOPEN_READ_WRITE_CREATE',							'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',						'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',			'x+b');
 
-define('CSS_FOLDER',			'static/css/');
-define('JS_FOLDER',				'static/js/');
-define('JSLIB_FOLDER',		'static/js/libs/');
-define('IMG_FOLDER',			'static/img/');
-define('USR_FOLDER',			'usr_files/');
+// Default folders
+define('FOLDER_CSS',			'static/css/');
+define('FOLDER_JS',				'static/js/');
+define('FOLDER_JSLIB',		'static/js/libs/');
+define('FOLDER_IMG',			'static/img/');
+define('FOLDER_FILES',		'files/');
+define('FOLDER_USRFILES',	'usrfiles/');;
 
 
 /* End of file constants.php */
