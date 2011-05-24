@@ -1,4 +1,11 @@
-Codeigniter + HTML5 Boilerplate v1.1
+CIHTML5 Boilerplate v1.2
+ 
+ - .htaccess updated
+ - DD_belated.js removed
+ - Respond.js added
+ - style.css updated, handheld.css removed
+
+CIHTML5 Boilerplate v1.1
 
 initial folder structure to start creating web applications using Codeigniter and HTML5 Boilerplate.
 
@@ -11,5 +18,5 @@ HTML5 Boilerplate: http://html5boilerplate.com/
  - Boilerplate build folder & structure added.
 
 Author: Serkan Sökmen
-		Benarti Software Solutions
+Benartı Software Solutions
 
