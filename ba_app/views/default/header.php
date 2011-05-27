@@ -18,18 +18,14 @@
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 	<link rel="shortcut icon" href="/favicon.ico">
-
-
+  
 	<!-- CSS: implied media="all" -->
 	<link rel="stylesheet" href="<?php echo base_url().FOLDER_CSS; ?>style.css?v=2">
 
-	<!-- Uncomment if you are specifically targeting less enabled mobile browsers
-	<link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
-
-	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+	<!-- All JavaScript at the bottom, except for Modernizr and Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
 	<script src="<?php echo base_url().FOLDER_JSLIB; ?>modernizr-1.7.min.js"></script>
 	<script src="<?php echo base_url().FOLDER_JSLIB; ?>respond.min.js"></script>
-
 </head>
 
 <body>

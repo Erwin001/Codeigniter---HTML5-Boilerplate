@@ -9,7 +9,7 @@ class Home extends CI_Controller {
 
 	function index()
 	{
-		$data['title'] = 'Codeigniter HTML5 Boilerplate';
+		$data['title'] = 'CIHTML5';
 		
 		$this->load->view('home_v', $data);
 		
